@@ -9,11 +9,13 @@ import "./App.css";
 import Dashboard from "./components/statefull/Dashboard/Dashboard";
 import About from "./components/statefull/About/About";
 import Navigation from './components/stateless/Navigation/Navigation';
+import ThemeManager from "./components/stateless/ThemeManager/ThemeManager";
 
 function App() {
   return (
     <Router>
       <div>
+        <ThemeManager/>
         <Navigation />
 
         {/* A <Switch> looks through its children <Route>s and
