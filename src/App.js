@@ -13,7 +13,7 @@ import ThemeManager from "./components/stateless/ThemeManager/ThemeManager";
 
 function App() {
   return (
-    <div id="app" class="flex-container">
+    <div id="app" className="flex-container">
       <Router>
         <header>
           <ThemeManager />
