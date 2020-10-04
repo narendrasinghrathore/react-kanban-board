@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cards.scss";
 import uid from "uid";
 // models
 
@@ -21,7 +22,7 @@ const CardsHolder = React.memo(() => {
     },
   ];
   return (
-    <article>
+    <article className="card-container">
       {list.map((item) => {
         return (
 
